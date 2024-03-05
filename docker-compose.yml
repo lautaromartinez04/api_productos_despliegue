@@ -13,7 +13,7 @@ services:
       timeout: 5s
       start_period: 60s
     environment:
-      MONGO_URL: mongodb://mongodb:27017/empresa
+      MONGO_URL: mongodb://127.0.0.1:27017/empresa
       OAUTH_AUDIENCE: http://localhost:3000/api/productos
       OAUTH_URL: https://dev-utn-frc-iaew.auth0.com/
   # Servicio de MongoDB
